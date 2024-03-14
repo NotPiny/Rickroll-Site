@@ -3,24 +3,24 @@
 	<meta name="description" content="Svelte demo app" />
 
 	<meta property="og:title" content="Home" />
-
-	<!-- Redirect -->
-	<meta http-equiv="refresh" content="1;url=https://www.youtube.com/watch?v=xvFZjo5PgG0" />
 </svelte:head>
 
 <section>
 	<p>Please wait for website to load</p>
 	<h1>
 		<span class="welcome">
-			<img src="https://thisimagewillnotload.com/495/2048" alt="Welcome to GaymingNews" />
+			<img src="https://thisimagewillnotload.com/495/2048" alt="Gayming news logo" />
 		</span>
 
-		To Gayming news, Your source for the gayest gaming news, reviews, and more!
+		Welcome to Gayming news, Your source for the gayest gaming news, reviews, and more!
 	</h1>
-
-
 </section>
 
+<!-- svelte-ignore a11y-media-has-caption -->
+<video style="display: none;" autoplay>
+	<source src="https://shattereddisk.github.io/rickroll/rickroll.mp4" type="video/mp4" />
+	Your browser does not support the video tag.
+</video>
 <style>
 	section {
 		display: flex;
